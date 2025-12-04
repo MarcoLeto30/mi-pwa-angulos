@@ -2,12 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+    <!-- Icono (corregido: antes tenía /vite.svg) -->
+    <link rel="icon" type="image/svg+xml" href="vite.svg" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>angulos-pwa</title>
+
+    <!-- Tu CSS generado por Vite (ajusta el nombre real del archivo) -->
+    <link rel="stylesheet" href="assets/index-BQL2b5lq.css">
+
+    <!-- Manifest (corregido: antes tenía /manifest...) -->
+    <link rel="manifest" href="manifest.webmanifest">
   </head>
+
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Tu JS generado por Vite (ajusta el nombre real del archivo) -->
+    <script type="module" src="assets/index-C1eahbqC.js"></script>
+
+    <!-- workbox si lo usas -->
+    <script src="workbox-1d305bb8.js"></script>
+
+    <!-- Service worker -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js");
+      }
+    </script>
   </body>
 </html>
