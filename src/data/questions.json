@@ -1,0 +1,82 @@
+[
+  {
+    "id": "q1",
+    "text": "¿Cuántos grados tiene una vuelta completa?",
+    "options": ["180°", "360°", "90°", "270°"],
+    "correctIndex": 1,
+    "explanation": "Una vuelta completa equivale a 360 grados sexagesimales.",
+    "type": "grados"
+  },
+  {
+    "id": "q2",
+    "text": "¿A cuántos radianes equivale 180°?",
+    "options": ["π rad", "2π rad", "π/2 rad", "π/4 rad"],
+    "correctIndex": 0,
+    "explanation": "180° es media vuelta, lo que equivale a π radianes.",
+    "type": "conversion"
+  },
+  {
+    "id": "q3",
+    "text": "¿Qué es un ángulo recto?",
+    "options": ["Un ángulo de 45°", "Un ángulo de 90°", "Un ángulo de 180°", "Un ángulo de 360°"],
+    "correctIndex": 1,
+    "explanation": "Un ángulo recto mide exactamente 90 grados.",
+    "type": "conceptos"
+  },
+  {
+    "id": "q4",
+    "text": "Si divides una vuelta en 4 partes iguales, ¿cuánto mide cada parte?",
+    "options": ["45°", "60°", "90°", "100°"],
+    "correctIndex": 2,
+    "explanation": "360° / 4 = 90°.",
+    "type": "calculo"
+  },
+  {
+    "id": "q5",
+    "text": "¿Cuántos grados son 2 vueltas?",
+    "options": ["360°", "540°", "720°", "1080°"],
+    "correctIndex": 2,
+    "explanation": "2 * 360° = 720°.",
+    "type": "calculo"
+  },
+  {
+    "id": "q6",
+    "text": "¿A cuántos grados equivale π/2 radianes?",
+    "options": ["30°", "45°", "60°", "90°"],
+    "correctIndex": 3,
+    "explanation": "π rad = 180°, por lo tanto π/2 rad = 90°.",
+    "type": "conversion"
+  },
+  {
+    "id": "q7",
+    "text": "¿Qué instrumento se usa comúnmente para medir ángulos en papel?",
+    "options": ["Regla", "Compás", "Transportador", "Escuadra"],
+    "correctIndex": 2,
+    "explanation": "El transportador es la herramienta diseñada para medir ángulos.",
+    "type": "herramientas"
+  },
+  {
+    "id": "q8",
+    "text": "¿Cuántos minutos tiene un grado?",
+    "options": ["10", "60", "100", "360"],
+    "correctIndex": 1,
+    "explanation": "Un grado se divide en 60 minutos.",
+    "type": "unidades"
+  },
+  {
+    "id": "q9",
+    "text": "¿Cuál es el ángulo llano?",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correctIndex": 1,
+    "explanation": "Un ángulo llano mide 180 grados (media vuelta).",
+    "type": "conceptos"
+  },
+  {
+    "id": "q10",
+    "text": "Convertir 270° a radianes",
+    "options": ["3π/4", "3π/2", "4π/3", "5π/4"],
+    "correctIndex": 1,
+    "explanation": "270° es 3/4 de vuelta. 3/4 * 2π = 3π/2.",
+    "type": "conversion"
+  }
+]

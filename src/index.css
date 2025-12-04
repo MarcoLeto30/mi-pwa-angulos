@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* Force light mode colors */
+  color-scheme: light;
+  color: #000000;
+  /* Black text */
+  background-color: #ffffff;
+  /* White background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: #000000;
+  /* Ensure body inherits black */
+  background-color: #ffffff;
+}
+
+/* Override any potential dark mode defaults from browser */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
